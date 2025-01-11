@@ -1,0 +1,45 @@
+<!--pages/index/index.wxml-->
+<view class="root">
+
+<view class="swiper">
+<swiper indicator-dots="true" indicator-active-color="pink" autoplay="true" interval="3000" circular="true">
+<swiper-item>
+<image src="/images/test.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/images/test.jpg"></image>
+</swiper-item>
+<swiper-item>
+<image src="/images/test.jpg"></image>
+</swiper-item>
+</swiper>
+</view>
+
+<view class="menu">
+<view class="item">
+<image src="/images/test.jpg"></image>
+<text>打卡日历</text>
+</view>
+<view class="item">
+<image src="/images/test.jpg"></image>
+<text>点数商城</text>
+</view>
+<view class="item">
+<image src="/images/test.jpg"></image>
+<text>我的成就</text>
+</view>
+</view>
+
+<view class="content">
+  <view  class="item" wx:for="{{list.data}}" wx:key="_id">
+    <image src="{{item.imgSrc}}"></image>
+    <view class="text">
+      <text class="title">{{item.title}}</text>
+      <text class="data">{{item.data}}</text>
+    </view>
+
+  </view>
+
+</view>
+
+</view>

@@ -1,0 +1,38 @@
+{
+  "pages": [
+   "pages/index/index",
+   "pages/map/map",
+   "pages/person/person"
+  ],
+  "tabBar":{
+    "color":"#eee9e9",
+    "selectedColor": "#ffb5c5",
+    "backgroundColor": "#fff",
+    "list":[
+      {"pagePath": "pages/index/index",
+       "iconPath": "/images/test.jpg",
+       "selectedIconPath": "/images/test.jpg",
+       "text":"主页"
+      },
+      {"pagePath": "pages/map/map",
+        "iconPath": "/images/test.jpg",
+        "selectedIconPath": "/images/test.jpg",
+        "text":"地图"
+       }, {"pagePath": "pages/person/person",
+        "iconPath": "/images/test.jpg",
+        "selectedIconPath": "/images/test.jpg",
+        "text":"我的"
+       }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc":"你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ]
+
+
+}

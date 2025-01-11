@@ -1,0 +1,5 @@
+<!--pages/map/map.wxml-->
+<view>
+<map id="myMap" markers="{{markers}}"  longitude="116.2852777"  latitude="40.1580556"  scale="18"></map>
+<button type="primary" plain="true" style="position: fixed;z-index: 999; bottom:10rpx;width:100%">开始乐跑</button>
+</view>

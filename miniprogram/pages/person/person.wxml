@@ -1,0 +1,29 @@
+<!--pages/person/person.wxml-->
+<view class="root">
+  <view class="profile">
+    <image src="/images/test.jpg"></image>
+    <view class="text">
+    <view>username</view>
+    <view>uid:111111111</view>
+  </view>
+  </view>
+  <view class="panel">
+    <view class="slider">
+      <slider value="30" selected-color="pink" block-color="green" ></slider>
+      <view>
+        <text>level 0</text>
+        <text>0/0</text>
+      </view>
+    </view><view class="grade">
+      <text>运动评分:59</text>
+      <view class="exp">exp:+20%</view>
+    </view>
+    </view>
+    
+  
+    <view class="stream">
+      <view class="item">运动报告</view>
+      <view class="item">个人信息</view>
+      <view class="item">设置</view>
+    </view>
+</view>

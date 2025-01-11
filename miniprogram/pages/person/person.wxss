@@ -1,0 +1,53 @@
+/* pages/person/person.wxss */
+.root{
+  display:flex;
+  flex-direction:column;
+  height:100vh;
+  box-sizing: border-box;
+}
+.profile{
+  width:100%;
+  height: 25%;
+  border:solid pink 20rpx;
+  border-radius: 10rpx;
+  color:pink;
+  font-size:20pt;
+  display: flex;
+}
+.profile .text{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+  justify-items: center;
+}
+.profile .text >view{
+  margin:20rpx;
+}
+.profile image{
+  width:25%;
+  height:95%;
+}
+.panel{
+  border:purple solid 10rpx;
+  border-radius: 9rpx;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.panel .slider{
+  display:flex;
+  width:100%;
+}
+.panel slider{
+  width:70%;
+}
+.stream{
+  font-size: 15pt;
+}
+.stream .item{
+margin:20rpx;
+border-bottom:5rpx solid pink;
+
+}
+
